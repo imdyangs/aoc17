@@ -5,7 +5,7 @@ http://adventofcode.com/2017/
 
 ## my fave christmas music:
 
-- [santa baby](https://www.youtube.com/watch?v=yWwW9iyhwgc&list=PLTNWXGeWrMqjJ3WjJJcmuQe87R_PxpnW8)
+[Spotify!](https://open.spotify.com/user/1272627414/playlist/6Hmfdgg8dtrPXo4AGa4pJE)
 
 
 day1: 3m32s
