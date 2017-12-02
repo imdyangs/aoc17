@@ -9,6 +9,9 @@ http://adventofcode.com/2017/
 
 
 day1: 3m32s
+
 day1p2: 3m12s
+
 day2: 5m40s
-day2: 8m23s ( fml forgot to or line 26 :( )
+
+day2: 8m23s (fml forgot to or line 26 ):)
