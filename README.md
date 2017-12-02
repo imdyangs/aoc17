@@ -9,5 +9,4 @@ http://adventofcode.com/2017/
 
 
 day1: 3m32s
-
 day1p2: 3m12s
