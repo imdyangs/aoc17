@@ -14,3 +14,18 @@ const str = `62	1649	1731	76	51	1295	349	719	52	1984	2015	2171	981	1809	181	1715
 271	348	229	278	981	1785	2290	516	473	2037	737	2291	2521	1494	1121	244
 2208	2236	1451	621	1937	1952	865	61	1934	49	1510	50	1767	59	194	1344
 94	2312	2397	333	1192	106	2713	2351	2650	2663	703	157	89	510	1824	125`
+
+const checksum = (inp) => {
+  let sum = 0;
+  let rows = inp.split("\n");
+  rows = rows.map(x => x.split("\t").map(x => parseInt(x)));
+  console.log(rows);
+  for (let row = 0; row < rows.length; row++) {
+    let curr = rows[row];
+    const max = Math.max.apply(null, curr);
+    const min = Math.min.apply(null, curr);
+    sum += (max - min);
+  }
+  return sum;
+}
+console.log(checksum(str));
